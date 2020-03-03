@@ -4,6 +4,8 @@ Simple Custom Round View For TextView, Button, EditText, LinearLayout, RelativeL
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
+
+
 allprojects {
 		repositories {
 			...
@@ -12,12 +14,17 @@ allprojects {
 	}
   
   Step 2. Add the dependency
+  
+  
   dependencies {
 	        implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
 	}
-  
+ 
+ 
 Usage
 Add your layout & view via XML
+
+
 
   <com.vks.RoundTextView
                 android:layout_width="wrap_content"

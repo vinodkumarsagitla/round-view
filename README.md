@@ -26,15 +26,7 @@ Add your layout & view via XML
 
 
 
-  <com.vks.RoundTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Round Text View"
-                app:rv_cornerRadius="10dp"
-                app:rv_strokeColor="@color/colorPrimary"
-                app:rv_strokeWidth="1dp"
-                tools:ignore="HardcodedText"/>
+ 
 
             <com.vks.RoundTextView
                 android:layout_width="wrap_content"
@@ -47,6 +39,16 @@ Add your layout & view via XML
                 app:rv_strokeColor="@color/colorPrimary"
                 app:rv_strokeWidth="1dp"
                 tools:ignore="HardcodedText" />
+		
+		 <com.vks.RoundTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Round Text View"
+                app:rv_cornerRadius="10dp"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokeWidth="1dp"
+                tools:ignore="HardcodedText"/>
                 
                  <com.vks.RoundedImageView
                 android:layout_width="140dp"

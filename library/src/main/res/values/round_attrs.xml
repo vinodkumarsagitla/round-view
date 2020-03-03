@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--FOR ROUNDED LAYOUT VIEW-->
+    <attr name="rv_backgroundColor" format="color" />
+    <attr name="rv_backgroundPressColor" format="color" />
+    <attr name="rv_cornerRadius" format="dimension" />
+    <attr name="rv_strokeWidth" format="dimension" />
+    <attr name="rv_strokeColor" format="color" />
+    <attr name="rv_strokePressColor" format="color" />
+    <attr name="rv_textPressColor" format="color" />
+    <attr name="rv_isRadiusHalfHeight" format="boolean" />
+    <attr name="rv_isWidthHeightEqual" format="boolean" />
+    <attr name="rv_cornerRadius_TL" format="dimension" />
+    <attr name="rv_cornerRadius_TR" format="dimension" />
+    <attr name="rv_cornerRadius_BL" format="dimension" />
+    <attr name="rv_cornerRadius_BR" format="dimension" />
+    <attr name="rv_isRippleEnable" format="boolean" />
+    <attr name="rv_isRadiusHalfHeightLeft" format="boolean" />
+    <attr name="rv_isRadiusHalfHeightRight" format="boolean" />
+    <attr name="rv_isRadiusHalfWidthTop" format="boolean" />
+    <attr name="rv_isRadiusHalfWidthBottom" format="boolean" />
+    <attr name="rv_dashWidth" format="dimension" />
+    <attr name="rv_dashGap" format="dimension" />
+
+    <declare-styleable name="RoundTextView">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_textPressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundButton">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_textPressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundEditText">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_textPressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+        <attr name="rv_isRadiusHalfHeightLeft" />
+        <attr name="rv_isRadiusHalfHeightRight" />
+        <attr name="rv_isRadiusHalfWidthTop" />
+        <attr name="rv_isRadiusHalfWidthBottom" />
+        <attr name="rv_dashWidth" />
+        <attr name="rv_dashGap" />
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_mutateBackground" format="boolean" />
+        <attr name="rv_isOval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="rv_tileMode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="rv_tileMode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="rv_tileMode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.vks.RoundTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Round Text View"
+                app:rv_cornerRadius="10dp"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokeWidth="1dp"
+                tools:ignore="HardcodedText" />
+
+            <com.vks.RoundTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="Round Text View"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_cornerRadius="10dp"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokeWidth="1dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.vks.RoundEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Round Edit Text"
+                app:rv_cornerRadius="10dp"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokeWidth="1dp"
+                tools:ignore="HardcodedText" />
+
+            <com.vks.RoundTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="Dotted Border"
+                app:rv_cornerRadius="10dp"
+                app:rv_dashGap="5dp"
+                app:rv_dashWidth="5dp"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokeWidth="2dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <com.vks.RoundLinearLayout
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:rv_backgroundColor="@color/colorAccent"
+            app:rv_isRadiusHalfHeight="true"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.vks.RoundLinearLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_isRadiusHalfHeightRight="true"
+                tools:ignore="HardcodedText" />
+
+            <com.vks.RoundLinearLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_isRadiusHalfHeightLeft="true"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.vks.RoundRelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_isRadiusHalfWidthTop="true"
+                tools:ignore="HardcodedText" />
+
+            <com.vks.RoundRelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_isRadiusHalfWidthBottom="true"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <com.vks.RoundLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="20dp"
+            app:rv_backgroundColor="#123456"
+            app:rv_cornerRadius_BR="100dp"
+            app:rv_cornerRadius_TL="100dp">
+
+            <com.vks.RoundFrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_isRadiusHalfHeight="true"
+                tools:ignore="HardcodedText" />
+
+            <com.vks.RoundFrameLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                app:rv_backgroundColor="@color/colorAccent"
+                app:rv_cornerRadius_BL="40dp"
+                app:rv_cornerRadius_BR="50dp"
+                app:rv_cornerRadius_TL="20dp"
+                app:rv_cornerRadius_TR="30dp"
+                tools:ignore="HardcodedText" />
+        </com.vks.RoundLinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.vks.RoundedImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vks"
+                app:rv_isOval="true"
+                app:rv_strokeColor="@color/colorPrimaryDark"
+                app:rv_strokeWidth="1dp" />
+
+            <com.vks.RoundedImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vks"
+                app:rv_cornerRadius="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

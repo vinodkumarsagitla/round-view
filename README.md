@@ -22,7 +22,7 @@ dependencies {
     implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
 }
 ``` 
-##Usage
+#Usage
 Add your layout & view via XML
 
 

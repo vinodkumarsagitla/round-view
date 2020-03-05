@@ -14,29 +14,15 @@ allprojects {
     }
 }
 ```
-
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
-  Step 2. Dependency definitions belong in the individual module `build.gradle` files:
+Step 2. Dependency definitions belong in the individual module `build.gradle` files:
 
 ```gradle
 dependencies {
     // (other dependencies)
     implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
 }
-```
-  
-  dependencies {
-	        implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
-	}
- 
- 
-Usage
+``` 
+##Usage
 Add your layout & view via XML
 
 

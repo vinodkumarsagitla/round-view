@@ -3,8 +3,17 @@ Simple Custom Round View For TextView, Button, EditText, LinearLayout, RelativeL
 
 To get a Git project into your build: 
 
-Step 1. Add the JitPack repository to your build file
+Step 1. The repository typically goes into the `build.gradle` file in the root of your project:
 
+```gradle
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
 
 allprojects {
 		repositories {
@@ -13,8 +22,14 @@ allprojects {
 		}
 	}
   
-  Step 2. Add the dependency
-  
+  Step 2. Dependency definitions belong in the individual module `build.gradle` files:
+
+```gradle
+dependencies {
+    // (other dependencies)
+    implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
+}
+```
   
   dependencies {
 	        implementation 'com.github.vinodkumarsagitla:round-view:1.0.0'
